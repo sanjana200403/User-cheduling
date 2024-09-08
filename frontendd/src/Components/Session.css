@@ -1,0 +1,112 @@
+/* Container for the form */
+.create-session-form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Form header */
+  .form-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-header h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Form structure */
+  .session-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .session-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .session-form input,
+  .session-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Form buttons */
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submit-button,
+  .close-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .close-button {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .submit-button:hover,
+  .close-button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Selected Users Chips */
+  .selected-users {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .selected-user-chip {
+    display: inline-flex;
+    align-items: center;
+    background-color: #e0e0e0;
+    border-radius: 16px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .selected-user-chip button {
+    background: none;
+    border: none;
+    color: #ff0000;
+    font-size: 16px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .selected-user-chip button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Disable input styles */
+  input[disabled] {
+    background-color: #f9f9f9;
+    cursor: not-allowed;
+  }
+  

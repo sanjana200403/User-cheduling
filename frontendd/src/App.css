@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.rbc-btn-group button{
+  width: 100px;
+}
+.Toastify__toast {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensure content and button are spaced out */
+}
+
+.Toastify__toast-body {
+  flex: 1; /* Allow body to take up space */
+}
+
+.Toastify__toast-button {
+  margin-left: 10px; /* Space between content and button */
+}
+.rbc-calendar{
+  width: 100%;
+  margin-top:10px ;
+}

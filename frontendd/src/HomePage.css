@@ -1,0 +1,156 @@
+/* General Styles */
+.home-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .top-nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust based on your logo size */
+    margin-right: 10px;
+  }
+  
+  .logo .app-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .top-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-nav li {
+    margin: 0 10px;
+  }
+  
+  .top-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .top-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    overflow: auto;
+  }
+  
+  /* Side Heading Styles */
+  .side-heading {
+    flex: 1;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #ddd;
+  }
+  
+  .side-heading h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  /* User List Styles */
+  .user-list {
+    flex: 3;
+  }
+  
+  .user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .user-item:last-child {
+    border-bottom: none;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .buttons button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.875rem;
+  }
+  
+  .buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .top-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .top-nav ul {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+  
+    .top-nav li {
+      margin: 5px 0;
+    }
+  
+    .logo {
+      margin-bottom: 10px;
+    }
+  
+    .main-content {
+      flex-direction: column;
+    }
+  
+    .side-heading {
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+      padding-right: 0;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+  
+    .user-list {
+      flex: none;
+      width: 100%;
+    }
+  
+    .user-item {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  }
+  
